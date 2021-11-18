@@ -4184,5 +4184,19 @@
       { "name": "qalarm.wid.js", "url": "widget.js" }
     ],
     "data": [{ "name": "qalarm.json" }]
+  },
+  { "id": "tapclok",
+    "name": "Tap Clock",
+    "shortName":"Tap Clock",
+    "version":"0.01",
+    "description": "A simple analogue clock - tap the watch to switch temporarily to a digital format with seconds and date",
+    "icon": "tapclock.png",
+    "tags": "",
+    "supports" : ["BANGLEJS2"],  
+    "readme": "README.md",
+    "storage": [
+      {"name":"tapclock.app.js","url":"app.js"},
+      {"name":"tapclock.img","url":"app-icon.js","evaluate":true}
+    ]
   }
 ]
