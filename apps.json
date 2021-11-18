@@ -4196,7 +4196,7 @@
     "supports" : ["BANGLEJS2"],  
     "readme": "README.md",
     "storage": [
-      {"name":"tapclock.app.js","url":"tapclock.app.js"},
+      {"name":"tapclock.app.js","url":"app.js"},
       {"name":"tapclock.img","url":"app-icon.js","evaluate":true}
     ]
   }
