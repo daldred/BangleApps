@@ -4191,7 +4191,7 @@
     "version":"0.01",
     "description": "A simple analogue clock - tap the watch to switch temporarily to a digital format with seconds and date",
     "icon": "tapclock.png",
-    "tags": "",
+    "tags": "clock",
     "supports" : ["BANGLEJS2"],  
     "readme": "README.md",
     "storage": [
