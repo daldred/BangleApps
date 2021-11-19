@@ -4185,7 +4185,7 @@
     ],
     "data": [{ "name": "qalarm.json" }]
   },
-  { "id": "tapclok",
+  { "id": "tapclock",
     "name": "Tap Clock",
     "shortName":"Tap Clock",
     "version":"0.01",
