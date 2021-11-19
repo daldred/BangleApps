@@ -62,13 +62,13 @@ function drawDial() {
     const r1 = dialRadius - lenTick;
     let longerTick = (i%3 == 0) ? 5 : 0 ;
     let angle = (i*30) * toRad;
-    g.fillRotRect(Math.sin(angle), Math.cos(angle), centerX, centerY, -2, 2, r1-longerTick, r2);
+    g.fillRotRect(Math.sin(angle), Math.cos(angle), centerX, centerY, -3, 3, r1-longerTick, r2);
   }
 }
 
 function drawHands(h, m, clear) {
-  drawHand(m*6*toRad, 2, -3, lenMinuteHand, clear ? colBg : colMinuteHand);
-  drawHand((h+m/60)*30*toRad, 3, -3, lenHourHand, clear ? colBg : colHourHand);
+  drawHand(m*6*toRad, 3, -3, lenMinuteHand, clear ? colBg : colMinuteHand);
+  drawHand((h+m/60)*30*toRad, 4, -3, lenHourHand, clear ? colBg : colHourHand);
 }
 
 function analogueDraw(){
@@ -128,7 +128,7 @@ drawDial();
 analogueDraw();
 
 //Check for a tap (proxy is touch on emulator) and swicth to digital mode (1) for one minute
-Bangle.on('tap', function(){
+Bangle.on('touch', function(){
   mode = 1-mode;
   console.log(mode);
   if (mode==0){
