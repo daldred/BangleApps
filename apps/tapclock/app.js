@@ -128,7 +128,7 @@ drawDial();
 analogueDraw();
 
 //Check for a tap (proxy is touch on emulator) and swicth to digital mode (1) for one minute
-Bangle.on('touch', function(){
+Bangle.on('tap', function(){
   mode = 1-mode;
   console.log(mode);
   if (mode==0){
